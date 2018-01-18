@@ -12,13 +12,6 @@ h1 {
   width: 80%;
   margin: 0.5em auto 0.5em auto;
 }
-h4 {
-  text-align: center;
-}
-h3, h5 {
-  width: 80%;
-  margin-left: 10%;
-}
 nav {
   font-size: 16px;
   text-align: center;
@@ -27,16 +20,27 @@ nav {
   padding-bottom: 1em;
   min-width: 400px;
 }
-.nav_links {
-  color: black;
-  transition: all 0.5s ease-in;
-}
 .nav_links:hover {
-  -webkit-transition: color 0.5s ease-in;
   color: #ff7070;
+  transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
 }
-#curr_html {
-  color: #ff7070;
+#introduction {
+  height: 30em;
+  margin: 0px auto 10px auto;
+}
+#picture {
+  width: 40%;
+  float: left;
+  padding: 2.5%;
+}
+#intro_des {
+  height: 100% - width;
+  margin-top: 5%;
+  width: 55%;
+  text-align: left;
+  line-height: 15px;
+  float: left;
 }
 a {
   display: inline-block;
@@ -48,22 +52,14 @@ a {
   padding-top: 0.75em;
   color: black;
 }
-.project_wrapper {
-  width: 100%;
-  padding: 0px 17px 0px 0px;
-  height: 600px;
-  overflow-y: scroll;
+#curr_html {
+  color: #ff7070;
 }
-p {
-  text-indent: 30px;
-  font-size: 14px;
-}
-.project_overview {
-  font-style: italic;
-  width: 80%;
-  margin: 0px auto 0px auto;
-}
-.project_description {
-  width: 80%;
-  margin: 0px auto 0px auto;
+ul {
+  list-style-type: none;
+  line-height: 22px;
+  font-size: 12px;
+  border-left-style: solid;
+  border-width: 1px;
+  border-color: #d1d1d1;
 }
